@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ITIS 3135 || Evan Huntley's Enchanted Hummingbird || Home Page</title>
+
+    <link href="styles/default.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>ITIS 3135 || Evan Huntley's Enchanted Hummingbird</h1>
+            <nav id="siteLinks">Nav Links Here</nav>
+<nav id="secondaryLinks">Secondary Links here</nav>
+        <h2>First Script Practice</h2>
+    </header>
+
+    <main>
+        
+        <h3 id="currDate"></h3>
+        <form id="myForm" onsubmit="return false;">
+            <h3>Information</h3>
+            <fieldset>
+                <label for="myName">Enter your first name</label>
+                <input type="text" name="name" id="myName">
+            </fieldset>
+            <fieldset>
+                <label for="myMood">How are you doing?</label>
+                <input type="text" name="mood" id="myMood">
+            </fieldset>
+            <fieldset>
+                <button onclick="myFunc()" placeholder="Submit">Submit</button>
+            </fieldset>
+            <h3 id="displayName"></h3>
+            <h3 id="displayMood"></h3>
+        </form>
+
+
+
+
+        
+
+
+
+        <form id="sum" onsubmit="return false;">
+            <h3>Sum of Two Numbers</h3>
+            <fieldset>
+                <label for="num1">Enter a number</label>
+                <input type="number" name="num1" id="num1" required>
+            </fieldset>
+            <fieldset>
+                <label for="num2">Enter another number</label>
+                <input type="number" name="num2" id="num2" required>
+            </fieldset>
+            <fieldset>
+                <button onclick="addFunc()">Submit</button>
+            </fieldset>
+            <h3 id="sumF"></h3>
+        </form>
+
+        <form id="product" onsubmit="return false;">
+            <h3>Product of Two Numbers</h3>
+            <fieldset>
+                <label for="multNum1">Enter a number</label>
+                <input type="number" name="multNum1" id="multNum1" required>
+            </fieldset>
+            <fieldset>
+                <label for="num2">Enter another number</label>
+                <input type="number" name="multNum2" id="multNum2" required>
+            </fieldset>
+            <fieldset>
+                <button onclick="multFunc()">Submit</button>
+            </fieldset>
+            <h3 id="Product"></h3>
+        </form>
+
+        <form id="quotient" onsubmit="return false;">
+            <h3>Quotient of Two Numbers</h3>
+            <fieldset>
+                <label for="divNum1">Enter a number</label>
+                <input type="number" name="divNum1" id="divNum1" required>
+            </fieldset>
+            <fieldset>
+                <label for=div2">Enter another number</label>
+                <input type="number" name="divNum2" id="divNum2" required>
+            </fieldset>
+            <fieldset>
+                <button onclick="divFunc()">Submit</button>
+            </fieldset>
+            <h3 id="Quotient"></h3>
+        </form>
+
+
+        <form id="distance" onsubmit="return false;">
+            <h3>Distance Between 2 points</h3>
+            <fieldset>
+                <label>Enter a Coordinate Pair</label>
+                <input type="number" name="x1" id="x1" placeholder="x" required>
+                <input type="number" name="y1" id="y1" placeholder="y" required>
+            </fieldset>
+            <fieldset>
+                <label>Enter another Coordinate Pair</label>
+                <input type="number" name="x2" id="x2" placeholder="x" required>
+                <input type="number" name="y1" id="y2" placeholder="y" required>
+            </fieldset>
+            <fieldset>
+                <button onclick="distFunc()">Submit</button>
+            </fieldset>
+            <h3 id="dist"></h3>
+        </form>
+
+
+
+
+
+        <form id="8ball" onsubmit="return false;">
+            <h3>8 Ball</h3>
+            <fieldset>
+                <label>Enter your question</label>
+                <input type="text" name="question" id="question" placeholder="Will I win the lottery?" required>
+            </fieldset>
+            <fieldset>
+                <button onclick="ballFunc()">Submit</button>
+            </fieldset>
+            <h3 id="ballq"></h3>
+            <h3 id="ballr"></h3>
+        </form>
+
+    </main>
+    <footer>
+        <p>Site made by<a href="huntleywebservice.com/"> Huntley Web Services ©</a></p>
+        <a href="https://validator.w3.org/check?uri=referer">
+            <img src="images/button_validation_html5.png" width="88" height="31" alt="Validate webpage HTML.">
+        </a>
+
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src="images/button_validation_css.png" width="88" height="31" alt="Validate webpage CSS.">
+        </a>
+
+    </footer>
+</body>
+<script src="./scripts/defaultscripts.js"></script>
+<script src="./scripts/linkscript.js"></script>
+
+
+</html>

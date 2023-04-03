@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ITIS 3135 || Evan Huntley's Enchanted Hummingbird || Form Practice </title>
+    <link href="styles/default.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+
+        <header>
+            <h1>ITIS 3135 || Evan Huntley's Enchanted Hummingbird</h1>
+            <nav id="siteLinks">Nav Links Here</nav>
+            <nav id="secondaryLinks">Secondary Links here</nav>
+            <h2>Form Practice</h2>
+        </header>
+
+
+        <form action="#">
+            <fieldset>
+                <legend>What is your name? **Required**</legend>
+                <input type="text" name="name" placeholder="Enter Name" size="30" required>
+            </fieldset>
+            <fieldset>
+                <legend>What is your phone number? **Required**</legend>
+                <input type="text" name="phonenumber" placeholder="Enter Phone Number" size="20" minlength="10"
+                    maxlength="13" required>
+            </fieldset>
+            <fieldset>
+                <legend>What is your email address? **Required**</legend>
+                <input type="email" name="email" placeholder="Enter Email Address" size="30" required>
+            </fieldset>
+            <fieldset>
+                <legend>What is your education?</legend>
+                <input type="radio" name="education" id="nohighschool"> <label>Did not graduate High School</label>
+                <input type="radio" name="education" id="highschool"> <label>Graduated High School</label>
+                <input type="radio" name="education" id="incollege"> <label>In College</label>
+                <input type="radio" name="education" id="collegegrad"> <label>Graduated College</label>
+            </fieldset>
+            <fieldset>
+                <legend>What programming languages are you fluent in?</legend>
+                <input type="checkbox" name="language" id="Python"> <label for="Python">Python</label>
+                <input type="checkbox" name="language" id="Java"> <label for="Java">Java</label>
+                <input type="checkbox" name="language" id="C"> <label for="C">C</label>
+                <input type="checkbox" name="language" id="C++"> <label for="C++">C++</label>
+                <input type="checkbox" name="language" id="Html/CSS"> <label for="Html/CSS">Html/CSS</label>
+            </fieldset>
+            <fieldset>
+                <select name="Country" id="country">
+                    <option value="select_country">Select Country of Origin</option>
+                    <option value="United States">United States</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="China">China</option>
+                    <option value="United Kingdon">United Kingdom</option>
+                    <option value="Other">Other</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <button type="reset">Reset</button>
+            </fieldset>
+            <fieldset>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Site made by<a href="/ehuntle3/huntleywebservice.com/"> Huntley Web Services ©</a></p>
+        <a href="https://validator.w3.org/check?uri=referer">
+            <img src="images/button_validation_html5.png" width="88" height="31" alt="Validate webpage HTML.">
+        </a>
+
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src="images/button_validation_css.png" width="88" height="31" alt="Validate webpage CSS.">
+        </a>
+    </footer>
+</body>
+<script src="./scripts/linkscript.js"></script>
+
+
+
+</html>
