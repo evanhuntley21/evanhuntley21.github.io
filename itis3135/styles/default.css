@@ -67,6 +67,9 @@ footer {
     margin-top: 20px;
     
 }
+footer a{
+    text-decoration: none;
+}
 form{
     padding-bottom: 20px;
     font-family: Roboto, sans-serif;

@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, #0077FF, #00A6Ff);
+}
+p, figcaption, legend, li p{
+    font-family: 'Open Sans';
+    color:whitesmoke;
+}
+main{
+    margin: auto 13%;
+}
+img, figcaption{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
